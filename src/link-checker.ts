@@ -9,6 +9,7 @@ export interface ExtractedLink {
   linkText: string;
   originalTarget: string;
   line: number;
+  type?: string;
 }
 
 export interface BrokenLink {
